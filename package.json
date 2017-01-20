@@ -1,0 +1,23 @@
+{
+  "name": "browserslist-reproduce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "6.6.1",
+    "css-loader": "0.26.1",
+    "postcss": "5.2.11",
+    "postcss-import": "9.1.0",
+    "postcss-loader": "1.2.2",
+    "style-loader": "0.13.1",
+    "webpack": "2.2.0"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config ./client/webpack.config.js --hide-modules --bail"
+  },
+  "browserslist": [
+    "> 1% in RU",
+    "last 2 versions"
+  ]
+}
